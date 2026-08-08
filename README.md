@@ -1,6 +1,6 @@
-# Bayesian-Clinical-Reasoning-Engine
+# Clinical-Inference-Engine
 
-Clinical reasoning is fundamentally a process of iterative belief revision. This project explores how Bayesian inference, causal models, and knowledge representation can support patient-specific reasoning from population-derived evidence.
+Clinical inference is fundamentally a process of iterative belief revision. This project explores how deductive, abductive (Bayesian) and inductive inference, causal models, and knowledge representation can support patient-specific reasoning from population-derived evidence.
 
 This project is based in part on:
 
