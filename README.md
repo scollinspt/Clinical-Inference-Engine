@@ -18,12 +18,23 @@ validation, uncertainty analysis, governance, and any applicable regulatory path
 The repository must not contain patient data, credentials, or copyrighted local
 reference collections intended only for private study.
 
+## Ecosystem context
+
+CIE is the canonical coordination center for the broader clinical inquiry program
+because patient-specific reasoning is its ultimate goal. Each connected repository
+remains authoritative for the content and systems it owns. Begin cross-repository work
+with the [Clinical Inquiry Ecosystem Workspace](CLINICAL_INQUIRY_WORKSPACE.md) briefing,
+which records the shared direction, project boundaries, current handoff, and links to
+authoritative sources.
+
 ## Shared workspace
 
-Open `~/Projects/physiolog-simulations.code-workspace` for work that spans the six-root
-model ecosystem: Physiolog, `hummod-research`, the read-only HumMod distribution,
-JSim, Models4PT, and CIE. Each root remains an independent repository or external
-dependency with its own licensing, validation, and deployment boundary.
+Open `~/Projects/physiolog-simulations.code-workspace` for model-development and
+simulation work spanning six roots: Physiolog, `hummod-research`, the read-only HumMod
+distribution, JSim, Models4PT, and CIE. This is distinct from the broader clinical
+inquiry workspace described in the canonical briefing. Each root remains an independent
+repository or external dependency with its own licensing, validation, and deployment
+boundary.
 
 This project is based in part on:
 
