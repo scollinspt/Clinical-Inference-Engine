@@ -68,14 +68,20 @@ not the five-root clinical inquiry workspace described here.
 
 ## Current handoff
 
-Last updated: 2026-09-12
+Last updated: 2026-09-19
 
 ### Current workstream
 
-The immediate cross-repository task is to review how the completed stats4PT classroom
-presentation, **Causal Models: Representing Population Knowledge and Reasoning About
-an Individual Patient**, should connect to the rest of the ecosystem without blurring
-project ownership.
+The immediate workstream is dedicated Models4PT development of the narrow,
+provenance-preserving researcher curation workflow. Routine implementation occurs in
+the single-root Models4PT workspace. This ecosystem workspace is used at milestones
+that affect shared representations, public interfaces, or another project's ownership
+boundary.
+
+The first software/data handoff to CIE should be a versioned, representative knowledge
+fixture validated through a public Models4PT contract. It should follow, not precede,
+persistence and retrieval of reviewed knowledge without loss of provenance or curation
+state. Patient-specific reasoning remains deferred to CIE.
 
 ### Recently completed
 
@@ -88,6 +94,9 @@ project ownership.
   prevent stale JavaScript from being combined with newer HTML.
 - CIE was selected as the canonical coordination center for the ecosystem because
   patient-specific reasoning is the ultimate goal.
+- Models4PT documented a dedicated-development workflow, integration checkpoints, and
+  compatibility rules that prohibit source imports, shared database coupling, and
+  patient data in its cross-project contract.
 
 ### Current state by project
 
@@ -106,13 +115,14 @@ current branch, working tree, recent commits, and authoritative project document
 
 ### Next decisions
 
-1. Decide how the causal-models presentation should be linked or contextualized in
-   CIE, Models4PT, Physiolog, and the portfolio.
-2. Classify each proposed connection before implementation: educational content,
-   conceptual link, shared representation, or software/data interface.
-3. Add reciprocal links only where they clarify the intellectual handoff.
-4. Define the first CIE implementation milestone only after the patient-reasoning
-   boundary and the Models4PT knowledge contract are explicit.
+1. Implement Models4PT's narrow curation workflow while keeping exploratory domain,
+  persistence, API, and cross-project contract models distinguishable.
+2. Exercise representation decisions against the HF/NMES case study.
+3. Define a versioned Models4PT export fixture and consumer-oriented contract test once
+  reviewed knowledge can be persisted and retrieved intact.
+4. Define the first CIE implementation milestone only after that contract exists.
+5. Return to reciprocal educational links when they clarify an intellectual handoff
+  without being mistaken for a software/data interface.
 
 ## Start-of-session routine
 
